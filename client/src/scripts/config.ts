@@ -5,9 +5,9 @@ export const Config = {
     regions: {
         dev: {
             name: "Local Server",
-            mainAddress: "http://127.0.0.1:8000",
-            gameAddress: "ws://127.0.0.1:<gameID>",
-            offset: 8001
+            mainAddress: "https://miro-io.onrender.com",
+            gameAddress: "wss://miro-io.onrender.com:<gameID>",
+            offset: 10001
         }/* ,
         na: {
             name: "North America",
